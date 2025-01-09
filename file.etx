@@ -1,0 +1,11 @@
+##AWS
+Access_Key_ID = AKIAIOSFODNN7ABCD12F
+Secret_Access_Key = wJalrXUtnFEMI6K7MDENGibPxRfiCYpASDg7Fq4e
+
+##PASSWORD
+external_service_user=admin
+external_service_password=TNnudsuy*&76
+endpoint=api.example.com
+
+##API_KEY
+API_KEY = api-key-4d2f3d79a2b541a8b7b394abb2d53a8c

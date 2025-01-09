@@ -1,0 +1,21 @@
+##Auth
+auth:
+  token: sess_1234567890abcdef1234567890abcdef
+  client_id: client12345
+  auth_url: https://auth.example.com
+
+auth:
+  token: ABC12345-6789-DEF012-34567890XYZ
+  service: api_service
+
+##Api Google
+api:
+  key: AIzaSyD4Nvg8E_XcB9Mf3B21PZpQwz4xV_Y8LZg
+  endpoint: https://api.example.com
+  timeout: 30
+
+##jwt
+auth:
+  jwt: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  token_expiry: 3600
+
