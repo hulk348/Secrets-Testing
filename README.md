@@ -68,6 +68,26 @@ sftp-config.json                       | Created by SFTP for Sublime Text, conta
 .idea/WebServers.xml                         | Created by Jetbrains IDEs, contains webserver credentials with encoded passwords ([not encrypted!](https://intellij-support.jetbrains.com/hc/en-us/community/posts/207074025/comments/207034775))
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
 
+custom-bs/Java/IncidentsDao.java                | IncidentsDao connetion credentials
+custom-bs/Java/MongoConfig.java                 | Database connection credentials
+custom-bs/Java/false_positive.md                | Configuration file, 2 FP
+custom-bs/PowerShell/file.ps1                   | AWS and Database Credentials 
+custom-bs/PowerShell/false_positive.ps1         | 2 FP: Reset-SqlSaPassword and link in comments 
+custom-bs/api_database.txt                      | Database and API Config file
+custom-bs/false_positive.yml                    | 3 FP: fifo, reset_password, error.log.enable
+custom-bs/file.back                             | Config file, contains AWS keys and password
+custom-bs/file.conf                             | Config file, contains AWS keys, API Keys and password
+custom-bs/file.etx                              | Config file, contains AWS keys, API Keys and password
+custom-bs/file.ini                              | Config file, contains AWS keys, API Keys and URI Credentials
+custom-bs/file.properties                       | Config file, contains Authentication Tokens, JWT, API Keys and password
+custom-bs/file.yaml                             | Config file, contains Authentication Tokens, JWT, Google API Key
+custom-bs/password.csv                          | Password
+custom-bs/private_key.key                       | Private key
+custom-bs/square_config.dts                     | Square Access Token
+custom-bs/square_config.process                 | Square Access Token
+
+                
+
 # Results
 We've tested a few tools and generated metrics for it. You can see how the tools tested so far stack up in [Benchmarking](https://github.com/Plazmaz/leaky-repo/tree/master/.leaky-meta/benchmarking)  
 If there's a tool you'd like tested, please file an issue with details on it or create a PR. We are focused primarily on command-line based tools, but are also happy to accept results from web or GUI-based tools, as long as you include the full results and details about the tool.

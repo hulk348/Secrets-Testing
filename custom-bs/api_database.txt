@@ -1,8 +1,8 @@
-# Database Configuration for Service 1
+# Database Configuration for Service
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
-DATABASE_NAME=service1_db
-DATABASE_USER=service1_user
+DATABASE_NAME=service_db
+DATABASE_USER=service_user
 DATABASE_PASSWORD=Service1Pass!
 
 # API Configuration

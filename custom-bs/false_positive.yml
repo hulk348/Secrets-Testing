@@ -1,0 +1,18 @@
+##False Positive ---- fifo ---- it is detected as a password --- it is a subconfiguration
+fifo:
+  group_id: Group45
+  group_count: 1
+
+###False Positive -- reset_password--- it is a file, not a password
+
+settings:
+  user_management:
+    reset_password: "password.hyo"
+
+
+##False Positive ----   error.log.enable ----it is detected as a SECRET
+errors.log.enable: "true"
+
+
+
+

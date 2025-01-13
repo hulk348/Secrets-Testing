@@ -22,6 +22,5 @@ public class IncidentsDao {
 
     public void fetchIncidents() {
         System.out.println("Fetching incidents...");
-        // Simulación de una consulta
     }
 }
