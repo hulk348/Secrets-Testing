@@ -5,3 +5,10 @@
     <endpoint>https://connect.squareup.com/v2/</endpoint>
   </service>
 </configuration>
+<configuration>
+  <service>
+    <name>SquareServiceProduction</name>
+    <accessToken>EAAAEv3yaqm2Hsd4Dvm562uXXC_vLHODjRssQJK1A55DcUmaIe53WU4jSyeoin7b</accessToken>
+    <endpoint>https://connect.squareup.com/v2/</endpoint>
+  </service>
+</configuration>
