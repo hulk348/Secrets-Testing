@@ -1,21 +1,58 @@
-##Auth
 auth:
-  token: sess_1234567890abcdef1234567890abcdef
-  client_id: client12345
-  auth_url: https://auth.example.com
-
-auth:
-  token: ABC12345-6789-DEF012-34567890XYZ
-  service: api_service
-
-##Api Google
+  default:
+    token: sess_1234567890abcdef1234567890abcdef
+    client_id: client12345
+    auth_url: https://auth.example.com
+  jwt:
+    jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+    token_expiry: 3600
+  service:
+    token: ABC12345-6789-DEF012-34567890XYZ
+    service_name: api_service
 api:
-  key: AIzaSyD4Nvg8E_XcB9Mf3B21PZpQwz4xV_Y8LZg
-  endpoint: https://api.example.com
-  timeout: 30
+  google:
+    key: AIzaSyD4Nvg8E_XcB9Mf3B21PZpQwz4xV_Y8LZg
+    endpoint: https://api.example.com
+    timeout: 30
+  service:
+    key: KLMNO-ABCDE-67890-FGHIJ-QRSTU
+    endpoint: https://api.example.com
+    timeout: 30
+  custom_key:
+    key: api-key-4d2f3d79a2b541a8b7b394abb2d53a8c
+  service_1:
+    endpoint: https://api.example.com/v1
+    key: d5a79c983f601bc9ef2562f30be9324
+  key:
+    value: 4f7b3d9a-5c6e-7f8g-2h9i-0j1k2l3m4n5o
+    endpoint: https://api.example.com
+    timeout: 30
 
-##jwt
-auth:
-  jwt: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
-  token_expiry: 3600
+aws:
+  akia:
+    aws_access_key_id: AKIAY5DPL3N47HJQZT9W
+    aws_secret_access_key: hJ3r6TpXs+q9LdMv7BfWyC8UkEn4/PL9aX2oQtzY
+  asia:
+    aws_access_key_id: ASIA5E8BAXPI3L7V5AL2
+    aws_secret_access_key: zP5s6j8/4dK1vV9gH2GJ5aI3k0v8n+qtxL6Z6l3J
+    aws_session_token: FwoGZXIvYXdzEJxMUl4bjm6Sy9gRT2Y6DQvGq5XMmTPeI5Z3EjxU5k5Jq0VvH6t7zDmmERK5qEOIBbzHRdlWXYbq1Bla3MY3QFp
+
+password:
+  backup:
+    user: admin
+    password: Password123!
+    location: /backups  
+
+uri:
+  database:
+    url: https://user:password123@database.example.com:5432/mydb
+    credentials:
+      username: user
+      password: password123
+
+api:
+  key:
+    value: 4f7b3d9a-5c6e-7f8g-2h9i-0j1k2l3m4n5o
+    endpoint: https://api.example.com
+    timeout: 30
 
