@@ -70,11 +70,11 @@ high-entropy-misc.txt                          | Misc high entropy strings (HES1
 custom-bs/Java/IncidentsDao.java                | IncidentsDao connetion credentials
 custom-bs/Java/MongoConfig.java                 | Database connection credentials
 custom-bs/Java/false_positive.md                | Configuration file, 2 FP
-custom-bs/Java/KeyStoreTrustStore/application.properties | Passwords KeyStore and TrustStore
-custom-bs/Java/KeyStoreTrustStore/application.yml | Passwords KeyStore and TrustStore
-custom-bs/Java/KeyStoreTrustStore/test.bat      | Passwords KeyStore and TrustStore
-custom-bs/Java/KeyStoreTrustStore/Test.java     | Passwords KeyStore and TrustStore
-custom-bs/Java/KeyStoreTrustStore/test.sh       | Passwords KeyStore and TrustStore
+custom-bs/Java/KeyStoreTrustStore/application.properties | KeyStore and TrustStore Passwords 
+custom-bs/Java/KeyStoreTrustStore/application.yml | KeyStore and TrustStore Passwords 
+custom-bs/Java/KeyStoreTrustStore/test.bat      | KeyStore and TrustStore Passwords 
+custom-bs/Java/KeyStoreTrustStore/Test.java     | KeyStore and TrustStore Passwords 
+custom-bs/Java/KeyStoreTrustStore/test.sh       | KeyStore and TrustStore Passwords 
 custom-bs/PowerShell/file.ps1                   | AWS and Database Credentials 
 custom-bs/PowerShell/false_positive.ps1         | 2 FP: Reset-SqlSaPassword and link in comments 
 custom-bs/api_database.txt                      | Database and API Config file
