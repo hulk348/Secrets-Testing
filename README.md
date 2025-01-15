@@ -70,20 +70,24 @@ high-entropy-misc.txt                          | Misc high entropy strings (HES1
 custom-bs/Java/IncidentsDao.java                | IncidentsDao connetion credentials
 custom-bs/Java/MongoConfig.java                 | Database connection credentials
 custom-bs/Java/false_positive.md                | Configuration file, 2 FP
+custom-bs/Java/KeyStoreTrustStore/application.properties | Passwords KeyStore and TrustStore
+custom-bs/Java/KeyStoreTrustStore/application.yml | Passwords KeyStore and TrustStore
+custom-bs/Java/KeyStoreTrustStore/test.bat      | Passwords KeyStore and TrustStore
+custom-bs/Java/KeyStoreTrustStore/Test.java     | Passwords KeyStore and TrustStore
+custom-bs/Java/KeyStoreTrustStore/test.sh       | Passwords KeyStore and TrustStore
 custom-bs/PowerShell/file.ps1                   | AWS and Database Credentials 
 custom-bs/PowerShell/false_positive.ps1         | 2 FP: Reset-SqlSaPassword and link in comments 
 custom-bs/api_database.txt                      | Database and API Config file
 custom-bs/false_positive.yml                    | 3 FP: fifo, reset_password, error.log.enable
-custom-bs/file.back                             | Config file, contains AWS keys and password
-custom-bs/file.conf                             | Config file, contains AWS keys, API Keys and password
-custom-bs/file.etx                              | Config file, contains AWS keys, API Keys and password
-custom-bs/file.ini                              | Config file, contains AWS keys, API Keys and URI Credentials
-custom-bs/file.properties                       | Config file, contains Authentication Tokens, JWT, API Keys and password
-custom-bs/file.yaml                             | Config file, contains Authentication Tokens, JWT, Google API Key
+custom-bs/file.back                             | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
+custom-bs/file.conf                             | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
+custom-bs/file.etx                              | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
+custom-bs/file.ini                              | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
+custom-bs/file.properties                       | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
+custom-bs/file.yaml                             | Config file, contains AWS keys, API Keys, tokens, URI Credentials, and password
 custom-bs/password.csv                          | Password
-custom-bs/private_key.key                       | Private key
-custom-bs/square_config.dts                     | Square Access Token
-custom-bs/square_config.process                 | Square Access Token
+custom-bs/square_config.dts                     | Square Access Tokens
+custom-bs/square_config.process                 | Square Access Tokens
 
                 
 

@@ -3,12 +3,20 @@ auth:
     token: sess_1234567890abcdef1234567890abcdef
     client_id: client12345
     auth_url: https://auth.example.com
+  ghp:  
+    token : ghp_abC12345DEF67890ghIJKlmNOpqRSTUvWxyZ
+    client_id: client12346
+    auth_url: https://auth.example.com
+  api_service:
+    token: bF9d8XkR5Tnysuoi7fdJh9Yt8Nq8wVrdsMzhQ==
+    service_name: api_service  
   jwt:
     jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
     token_expiry: 3600
   service:
     token: ABC12345-6789-DEF012-34567890XYZ
     service_name: api_service
+    
 api:
   google:
     key: AIzaSyD4Nvg8E_XcB9Mf3B21PZpQwz4xV_Y8LZg
@@ -34,7 +42,6 @@ aws:
     aws_secret_access_key: hJ3r6TpXs+q9LdMv7BfWyC8UkEn4/PL9aX2oQtzY
   asia:
     aws_access_key_id: ASIA5E8BAXPI3L7V5AL2
-    aws_secret_access_key: zP5s6j8/4dK1vV9gH2GJ5aI3k0v8n+qtxL6Z6l3J
     aws_session_token: FwoGZXIvYXdzEJxMUl4bjm6Sy9gRT2Y6DQvGq5XMmTPeI5Z3EjxU5k5Jq0VvH6t7zDmmERK5qEOIBbzHRdlWXYbq1Bla3MY3QFp
 
 password:
@@ -46,13 +53,5 @@ password:
 uri:
   database:
     url: https://user:password123@database.example.com:5432/mydb
-    credentials:
-      username: user
-      password: password123
 
-api:
-  key:
-    value: 4f7b3d9a-5c6e-7f8g-2h9i-0j1k2l3m4n5o
-    endpoint: https://api.example.com
-    timeout: 30
 

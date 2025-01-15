@@ -12,7 +12,6 @@ api_timeout=30
 
 ##AWS
 aws_access_key_id = ASIA5E8BAXPI3L7V5AL2
-aws_secret_access_key = zP5s6j8/4dK1vV9gH2GJ5aI3k0v8n+qtxL6Z6l3J
 aws_session_token = FwoGZXIvYXdzEJxMUl4bjm6Sy9gRT2Y6DQvGq5XMmTPeI5Z3EjxU5k5Jq0VvH6t7zDmmERK5qEOIBbzHRdlWXYbq1Bla3MY3QFpu5HrjSz1hn0Chb++l5vweo5l6L+Jlfk6zRPdx4BzjfL+w2gF1O/xT6r0wWXYQe08OQeP0pmOIzfBTTT+HzW/xXYk64DAxNmWzqTt+xy2k79M93P+TyyQFbDd1cmP7H7FkQTtXYv80T3Lw==
 
 ##API KEY Google
@@ -26,8 +25,6 @@ backup_location=/backups
 
 ##URI_CREDENTIAL
 url = https://user:password123@database.example.com:5432/mydb
-username = user
-password = password123
 
 ##API_KEY
 endpoint = https://api.example.com/v1

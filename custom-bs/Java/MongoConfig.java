@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 public class MongoConfig {
 
     public final String USER = "MONGOUSER2";
-    public final String PASSWORD = "MONGOPASSWORD456";   //Password
+    public final String PASSWORD = "MONGOPASSWORD456";
     public final String SERVER = "MONGODB.CLOUD.SERVER2";
 
     public final String API_PASSWORD = "${API_PASSWD}";
@@ -25,7 +25,7 @@ public class MongoConfig {
 
     public String getMongoClientUri() {
         try {
-            String mongoClientUri = "mongodb+srv://" + USER + ":" + PASSWORD + "@" + SERVER + "/sampledb?retryWrites=true&w=majority";     ///Auth
+            String mongoClientUri = "mongodb+srv://" + USER + ":" + PASSWORD + "@" + SERVER + "/sampledb?retryWrites=true&w=majority";
             return mongoClientUri;
         } catch (Exception e) {
             System.err.println("Error al construir la URI de MongoDB: " + e.getMessage());

@@ -1,11 +1,15 @@
 process:
-  name: SquareDataProcess
-  square_access_token: "EAAAAG5KJb4Fh24Bd7dD_2I3Npt4b4H1Z49XjWx5D0Fg3Wxg0dFmWEXAmpuVFV62lLqLOvC8rc5bOyxTZF1pDLH9fpIVWRJFx_4WGZo7p5tsAhlj3Z2oa8pOUqAdtLhlbZ15Xcx"
-  endpoint: "https://connect.squareup.com/v2/"
-  action: fetch_data
+  - name: SquareDataProcessProduction
+    square_access_token: "EAAAEv3yaqm2Hsd4Dvm562uXXC_vLHODjRssQJK1A55DcUmaIe53WU4jSyeoin7b"
+    endpoint: "https://connect.squareup.com/v2/"
+    action: fetch_data
 
-process:
-  name: SquareDataProcessProduction
-  square_access_token: "EAAAEv3yaqm2Hsd4Dvm562uXXC_vLHODjRssQJK1A55DcUmaIe53WU4jSyeoin7b"
-  endpoint: "https://connect.squareup.com/v2/"
-  action: fetch_data
+  - name: SquareServiceDevelopment
+    square_access_token: "sqOatp-xG7_yZ2LmP9qA4NvR5Ts8W"
+    endpoint: "https://connect.squareup.com/v2/"
+    action: fetch_data
+
+  - name: SquareService
+    square_access_token: "sq0csp-A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q7r8S9t0UvW1X2Y3Z"
+    endpoint: "https://connect.squareup.com/v2/"
+    action: fetch_data
