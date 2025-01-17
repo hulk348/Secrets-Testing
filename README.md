@@ -67,7 +67,7 @@ deployment-config.json                          | Created by sftp-deployment for
 sftp-config.json                       | Created by SFTP for Sublime Text, contains FTP/FTPS or SFTP/SSH server details and credentials
 .idea/WebServers.xml                         | Created by Jetbrains IDEs, contains webserver credentials with encoded passwords ([not encrypted!](https://intellij-support.jetbrains.com/hc/en-us/community/posts/207074025/comments/207034775))
 high-entropy-misc.txt                          | Misc high entropy strings (HES1 is plain, HES2 is base64)
-custom-bs/Java/IncidentsDao.java                | IncidentsDao connetion credentials
+custom-bs/Java/IncidentsDao.java                | Contains secret, jwt and password
 custom-bs/Java/MongoConfig.java                 | Database connection credentials
 custom-bs/Java/false_positive.md                | Configuration file, 2 FP
 custom-bs/Java/KeyStoreTrustStore/application.properties | KeyStore and TrustStore Passwords 
